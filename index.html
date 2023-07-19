@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
   </head>
   <body>
-    <button id="startButton">Start Quiz</button>
-    <div class="quizEl" class="hidden">
+      <div class="introLayout">
+      <h1>Coding Quiz Challenge</h1>    
+      <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+      <button class="buttonConfig">Start Quiz</button>
+      </div>
+      <div class="quiz">
         <h1 id="countdown"></h1>
-        <h2 id="questionTitles"></h2>
-        <div id="questionChoices"></div>
+        <h1 id="questionTitles"></h1>
+        <div id="questionChoices">
+            <button class="buttonConfig2"> Choice 1</button>
+            <button class="buttonConfig2"> Choice 2</button>
+            <button class="buttonConfig2"> Choice 3</button>
+            <button class="buttonConfig2"> Choice 4</button>
+        </div>
     </div>
     <script src="./Assets/JS/script.js"></script>
   </body>
